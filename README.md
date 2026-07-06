@@ -31,6 +31,7 @@ This ImageJ macro batch-measures pollen grain area and diameter from microscope 
 - `pollen_particles_detail.csv`
 - `pollen_summary.csv`
 - `pollen_debug_log.txt`
+-
 
 ## Diameter Calculation
 
@@ -38,6 +39,7 @@ Diameter is calculated from area:
 
 ```text
 diameter = sqrt(4 * area / pi)
+```
 
 # 花粉粒直径批量统计工具（ImageJ 宏）
 
