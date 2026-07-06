@@ -110,23 +110,6 @@ If automatic scale detection fails, manually enter the pixel length correspondin
 - Increase `Minimum circularity` if many merged objects or debris are included.
 - The `20-100 um` diameter range is only the default and can be adjusted by users.
 
-## Suggested GitHub Files
-
-Minimum files:
-
-```text
-Pollen_Diameter_Batch.ijm
-README.md
-```
-
-Optional files:
-
-```text
-sample_pollen_diameter_table.csv
-sample_pollen_summary.csv
-```
-
-Avoid uploading files that contain personal paths, WeChat file paths, or non-anonymized raw data.
 
 ---
 
