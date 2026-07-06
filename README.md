@@ -1,9 +1,21 @@
-# Pollen-diameter-calculation
-Pollen diameter calculation based on the imagej
 
 # Pollen Diameter Batch for ImageJ
 
 This ImageJ macro batch-measures pollen grain area and diameter from microscope images.
+Script file:
+
+```text
+Pollen_Diameter_Batch.ijm
+```
+
+# 花粉粒直径批量统计工具（ImageJ 宏）
+
+这是一个用于 ImageJ / Fiji 的批量花粉图片分析宏脚本，可以自动识别显微图片中的花粉粒，统计花粉粒面积，并根据面积反推花粉粒直径，最后导出 Excel 可打开的 CSV 表格。
+脚本文件：
+
+```text
+Pollen_Diameter_Batch.ijm
+```
 
 ## Requirements
 
@@ -41,15 +53,7 @@ Diameter is calculated from area:
 diameter = sqrt(4 * area / pi)
 ```
 
-# 花粉粒直径批量统计工具（ImageJ 宏）
 
-这是一个用于 ImageJ / Fiji 的批量花粉图片分析宏脚本，可以自动识别显微图片中的花粉粒，统计花粉粒面积，并根据面积反推花粉粒直径，最后导出 Excel 可打开的 CSV 表格。
-
-脚本文件：
-
-```text
-Pollen_Diameter_Batch.ijm
-```
 
 ## 功能特点
 
