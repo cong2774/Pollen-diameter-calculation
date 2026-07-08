@@ -1,4 +1,4 @@
-"# 🌸 Pollen Diameter Calculator / 花粉直径计算器"
+# 🌸 Pollen Diameter Calculator / 花粉直径计算器
 # Pollen Diameter Batch Tool (ImageJ Macro)
 
 [中文说明](#花粉粒直径批量统计工具imagej-宏)
