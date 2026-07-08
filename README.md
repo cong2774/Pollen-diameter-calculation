@@ -36,7 +36,7 @@ The example below shows an original pollen image with the generated outline prev
 This tool is not a Python program. It is an ImageJ macro script with the `.ijm` extension.
 
 ## Usage
-
+You need to download ImageJ at first
 1. Open ImageJ.
 2. Go to `Plugins > Macros > Run...`.
 3. Select `Pollen_Diameter_Batch.ijm`.
@@ -137,23 +137,6 @@ If nonblack pollen is still counted, lower `Black max intensity (RGB)` or raise 
 - The `20-100 um` diameter range is only the default and can be adjusted by users.
 - The outline preview shows segmentation candidates. The final counted particles are determined by the CSV status columns after diameter and black-color filtering.
 
-## Suggested GitHub Files
-
-Minimum files:
-
-```text
-Pollen_Diameter_Batch.ijm
-README.md
-```
-
-Optional files:
-
-```text
-sample_pollen_diameter_table.csv
-sample_pollen_summary.csv
-```
-
-Avoid uploading files that contain personal paths, WeChat file paths, or non-anonymized raw data.
 
 ---
 
@@ -194,7 +177,7 @@ Pollen_Diameter_Batch.ijm
 本工具不是 Python 程序，而是 ImageJ 宏脚本，文件后缀为 `.ijm`。
 
 ## 使用方法
-
+首先你需要下载ImageJ
 1. 打开 ImageJ。
 2. 点击 `Plugins > Macros > Run...`。
 3. 选择 `Pollen_Diameter_Batch.ijm`。
@@ -295,20 +278,3 @@ Minimum black center (%): 95
 - 直径范围 `20-100 um` 是默认值，用户可以根据实验材料自行调整。
 - 轮廓预览图显示的是分割候选颗粒，最终是否计入统计以 CSV 表格中的直径筛选和黑色筛选状态为准。
 
-## GitHub 上传建议
-
-最少上传：
-
-```text
-Pollen_Diameter_Batch.ijm
-README.md
-```
-
-可选上传：
-
-```text
-sample_pollen_diameter_table.csv
-sample_pollen_summary.csv
-```
-
-不建议上传包含个人路径、微信文件路径或未脱敏原始数据的文件。
