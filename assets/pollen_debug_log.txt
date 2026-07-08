@@ -1,0 +1,66 @@
+start dialog mode
+
+scaleKnownUm=100
+
+manualScalePx=0
+
+minDiamUm=20
+
+maxDiamUm=100
+
+thresholdMethod=Default
+
+redMin=90
+
+greenMax=130
+
+blueMax=130
+
+circularityMin=0.7
+
+blackMaxIntensity=90
+
+minBlackCenterPercent=95
+
+circularityMin=0.7
+
+blackMaxIntensity=90
+
+minBlackCenterPercent=95
+
+settings loaded
+
+before batch mode
+
+after batch mode
+
+headers written
+
+file list length=6
+
+image file count=1
+
+batch scale probe test.tif
+
+batch scale probe result test.tif px=99 x1=1228 x2=1326 y=919
+
+batch fixed scale source=auto_first_image px=99
+
+processing test.tif
+
+open test.tif
+
+find scale test.tif
+
+scale test.tif mode=auto_fixed_first_image fixedPx=99 autoPx=99 x1=1228 x2=1326 y=919
+
+duplicate test.tif
+
+threshold test.tif
+
+analyze test.tif options=size=62.832-Infinity circularity=0.70-1.00 display clear exclude
+
+analyze done test.tif n=64
+
+processed test.tif
+

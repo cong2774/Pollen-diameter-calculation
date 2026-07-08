@@ -1,0 +1,2 @@
+Image,Image_Status,Calibration_Mode,ScaleBar_px,Um_per_px,Valid_Count_Fertile_Black,Invalid_Count_By_Diameter,Excluded_Count_By_Black_Filter,Mean_Diameter_From_Area_um,SD_Diameter_From_Area_um,Min_Diameter_From_Area_um,Max_Diameter_From_Area_um
+test.tif,ok,auto_fixed_first_image,99.000,1.010101,63,1,0,75.394,3.377,68.254,92.848
