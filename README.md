@@ -1,4 +1,3 @@
-# 🌸 Pollen Diameter Calculator / 花粉直径计算器
 # Pollen Diameter Batch Tool (ImageJ Macro)
 
 [中文说明](#花粉粒直径批量统计工具imagej-宏)
@@ -10,6 +9,12 @@ Script file:
 ```text
 Pollen_Diameter_Batch.ijm
 ```
+
+## Example
+
+The example below shows an original pollen image with the generated outline preview.
+
+![Example pollen detection result](assets/example_pollen_detection.png)
 
 ## Features
 
@@ -131,6 +136,23 @@ If nonblack pollen is still counted, lower `Black max intensity (RGB)` or raise 
 - The `20-100 um` diameter range is only the default and can be adjusted by users.
 - The outline preview shows segmentation candidates. The final counted particles are determined by the CSV status columns after diameter and black-color filtering.
 
+## Suggested GitHub Files
+
+Minimum files:
+
+```text
+Pollen_Diameter_Batch.ijm
+README.md
+```
+
+Optional files:
+
+```text
+sample_pollen_diameter_table.csv
+sample_pollen_summary.csv
+```
+
+Avoid uploading files that contain personal paths, WeChat file paths, or non-anonymized raw data.
 
 ---
 
@@ -145,6 +167,12 @@ If nonblack pollen is still counted, lower `Black max intensity (RGB)` or raise 
 ```text
 Pollen_Diameter_Batch.ijm
 ```
+
+## 示例图片
+
+下图展示了原始花粉图片和程序生成的轮廓预览结果。
+
+![花粉识别示例](assets/example_pollen_detection.png)
 
 ## 功能特点
 
@@ -265,3 +293,21 @@ Minimum black center (%): 95
 - 如果识别结果包含较多粘连或杂质，可以适当提高 `Minimum circularity`。
 - 直径范围 `20-100 um` 是默认值，用户可以根据实验材料自行调整。
 - 轮廓预览图显示的是分割候选颗粒，最终是否计入统计以 CSV 表格中的直径筛选和黑色筛选状态为准。
+
+## GitHub 上传建议
+
+最少上传：
+
+```text
+Pollen_Diameter_Batch.ijm
+README.md
+```
+
+可选上传：
+
+```text
+sample_pollen_diameter_table.csv
+sample_pollen_summary.csv
+```
+
+不建议上传包含个人路径、微信文件路径或未脱敏原始数据的文件。
