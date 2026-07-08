@@ -31,9 +31,10 @@ The example below shows an original pollen image with the generated outline prev
 
 ## Requirements
 
-- ImageJ or Fiji
+- [ImageJ official download](https://imagej.net/ij/download.html) or [Fiji official download](https://imagej.net/software/fiji/downloads)
 
 This tool is not a Python program. It is an ImageJ macro script with the `.ijm` extension.
+
 
 ## Usage
 You need to download ImageJ at first
@@ -172,9 +173,10 @@ Pollen_Diameter_Batch.ijm
 
 ## 软件要求
 
-- ImageJ 或 Fiji
+- [ImageJ 官方下载](https://imagej.net/ij/download.html) 或 [Fiji 官方下载](https://imagej.net/software/fiji/downloads)
 
 本工具不是 Python 程序，而是 ImageJ 宏脚本，文件后缀为 `.ijm`。
+
 
 ## 使用方法
 首先你需要下载ImageJ
