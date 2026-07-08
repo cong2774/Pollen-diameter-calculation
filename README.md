@@ -13,7 +13,7 @@ Pollen_Diameter_Batch.ijm
 
 ## Example
 
-The example below shows an original pollen image with the generated outline preview.
+The example below shows an original pollen(rice) image with the generated outline preview.
 
 ![Example pollen detection result](assets/example_pollen_detection.png)
 
@@ -155,7 +155,7 @@ Pollen_Diameter_Batch.ijm
 
 ## 示例图片
 
-下图展示了原始花粉图片和程序生成的轮廓预览结果。
+下图展示了原始花粉（水稻）图片和程序生成的轮廓预览结果。
 
 ![花粉识别示例](assets/example_pollen_detection.png)
 
