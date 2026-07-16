@@ -1,2 +1,0 @@
-Image,Image_Status,Calibration_Mode,Threshold_Method,ScaleBar_px,Um_per_px,Valid_Count_Fertile_Black,Invalid_Count_By_Diameter,Excluded_Count_By_Roundness,Excluded_Count_By_Solidity,Excluded_Count_By_Black_Filter,Excluded_Count_By_Background_Contrast,Mean_Diameter_from_area_um,SD_Diameter_from_area_um,Min_Diameter_from_area_um,Max_Diameter_from_area_um
-test.tif,ok,auto_fixed_first_image,Otsu,99.000,1.010101,63,0,2,0,0,0,75.668,3.695,68.377,96.814
